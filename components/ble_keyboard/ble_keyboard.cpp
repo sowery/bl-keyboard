@@ -1,6 +1,7 @@
 #ifdef USE_ESP32
 
 #include "ble_keyboard.h"
+#include "esp_bt.h"
 #include "esphome/core/log.h"
 #include <NimBLEServer.h>
 #include <NimBLEDevice.h>
